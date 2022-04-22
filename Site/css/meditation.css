@@ -1,0 +1,87 @@
+.max-width {
+font-weight: bold;
+    max-width: 100rem;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10%;
+    text-align: center;
+}
+.meditation-image{    transition:.6s;}
+.meditation-image:hover {
+
+width:8rem;
+}
+
+    #counter {
+
+        transition: 2s;
+    color: greenyellow;
+  
+     padding: 4rem 0rem;
+        font-size: 15rem;
+    }
+
+
+
+@keyframes colors {
+
+0%, 100% {   color: rgb(218, 255, 163);}
+50% {   color: rgb(155, 255, 5);}
+}
+    
+
+
+    #counter h1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+    }
+
+    .max-width button {
+
+        color: black;
+        width: 90px;
+        padding: 10px 10px;
+        border: none;
+        outline: none;
+        font-family: 'Segoe UI';
+        font-size: 1.1em;
+        transition: all .5s;
+        cursor: pointer;
+
+    }
+
+    .atalhos-timer button {
+        border-radius: 40px;
+        padding: 20px 5px;
+    }
+
+    button:hover {
+        border-radius: 90px;
+        padding: 30px 5px;
+        background-color: aquamarine;
+    }
+
+    button:active {
+        margin: 0rem 0rem;
+        background-color: #00f7ff;
+    }
+
+    .btn-play {
+        background-color: #adff81;
+    }
+
+    .btn-pause {
+        background-color: #bbffc0;
+    }
+
+    .btn-stop {
+        background-color: #d2ffb8;
+    }
+
+
+
+    @media (max-width:650px){
+.max-width button {margin: 3px;}
+        #counter {font-size:2.9rem;}
+    }
